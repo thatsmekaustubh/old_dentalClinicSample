@@ -16,7 +16,7 @@
   </div>
   <div class="navBarBackground">
     <div class="navBar"> 
-    <a href="index.html">home</a> 
+    <a href="index.php">home</a> 
     <a href="about.html">about</a> 
     <a href="staff.html">staff</a> 
     <a href="services.html">services</a> 

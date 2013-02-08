@@ -31,7 +31,7 @@ if ($_POST['uname']="admin" && $_POST['password']=="password")
 {
 session_start();
 $_SESSION['fname']="admin";
-header("Location: http://dentalclinicsample.site11.com/dashBoard.php");
+header("Location: dashBoard.php");
 //echo("<meta http-equiv='Refresh' content='0; URL=http://dentalclinicsample.site11.com/dashBoard.php'>"); 
 	echo "You entere wrong details please <a href='dashBoard.php'>Click here</a>";
 }

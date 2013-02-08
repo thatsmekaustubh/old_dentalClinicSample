@@ -16,7 +16,7 @@
   </div>
   <div class="navBarBackground">
     <div class="navBar"> 
-    <a href="index.html">home</a> 
+    <a href="index.php">home</a> 
     <a href="about.html">about</a> 
     <a href="staff.html">staff</a> 
     <a href="services.html">services</a> 
@@ -41,7 +41,7 @@ mysql_query("INSERT INTO `a2617954_dentalC`.`bulkEntry` (`name`, `contact`, `dat
 //db connection closing
 mysql_close($con);
 
-//header("Location: http://dentalclinicsample.site11.com/index.html");
+//header("Location: index.php");
 
 echo "You have sucessfully applied for an appointement now please <a href='index.html'>Click here</a>";
 ?>

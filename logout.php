@@ -16,7 +16,7 @@
   </div>
   <div class="navBarBackground">
     <div class="navBar"> 
-    <a href="index.html">home</a> 
+    <a href="index.php">home</a> 
     <a href="about.html">about</a> 
     <a href="staff.html">staff</a> 
     <a href="services.html">services</a> 
@@ -29,8 +29,8 @@
   <?php
 session_start();
 unset($_SESSION['fname']);
-header("Location: http://dentalclinicsample.site11.com/index.html");
-echo "You have sucessfully logged out please <a href='index.html'>Click here</a>";
+header("Location: index.php");
+echo "You have sucessfully logged out please <a href='index.php'>Click here</a>";
 ?>
 </div>
   </div>

@@ -4,7 +4,7 @@ $na=$_SESSION['fname'];
 //$na=$_COOKIE["Validity"];
 if ($na == NULL )
 {
-header("Location: http://http://dentalclinicsample.site11.com/login.html");
+header("Location: login.html");
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -25,7 +25,7 @@ header("Location: http://http://dentalclinicsample.site11.com/login.html");
   </div>
   <div class="navBarBackground">
     <div class="navBar"> 
-    <a href="index.html">home</a> 
+    <a href="index.php">home</a> 
     <a href="about.html">about</a> 
     <a href="staff.html">staff</a> 
     <a href="services.html">services</a> 
@@ -69,7 +69,7 @@ while($row = mysql_fetch_array($result))
   $detail=$row['dateTime'];
   echo $detail;
   echo "</td><td>";
-  echo "<form action='http://dentalclinicsample.site11.com/delete.php' method='post'>";
+  echo "<form action='delete.php' method='post'>";
   echo "<input type='hidden' name='name' value='$name' />";
   echo "<input type='hidden' name='contact' value='$contact' />";
   echo "<input type='hidden' name='detail' value='$detail' />";
