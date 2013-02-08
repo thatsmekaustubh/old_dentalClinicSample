@@ -1,0 +1,28 @@
+@charset "utf-8";
+.mains {
+	margin-right: 15%;
+	margin-left: 15%;
+	height:768px;
+	margin-bottom:5%;
+	margin-top:5%;
+}
+.mainLogo {
+	height:14%;
+	text-align:center;
+	background-color:#0CF;
+	color:#FFF;
+	padding-top:5%;
+	font-family:"Palatino Linotype", "Book Antiqua";
+	font-size:34px;
+	font-stretch:extra-expanded;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+.content {
+	padding:20px;
+	margin-top:25px;
+	font-family:Verdana;
+	font-size:14px;
+	background-color:#FFF;
+	text-align:justify;
+}

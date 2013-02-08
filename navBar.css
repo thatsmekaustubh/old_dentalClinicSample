@@ -1,0 +1,41 @@
+@charset "utf-8";
+.navBar {
+	margin-top: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(255,255,255);
+}
+
+.navBarBackground
+{
+	
+	width:100%;
+	height:26px;
+}
+
+.navBar a
+{
+	color:#FFF;
+	display: block;
+	width: 15%;
+
+	text-decoration: none;
+	position: relative;
+	float: left;
+	font-family:Verdana;
+	font-size:14px;
+	padding-top:3px;
+	padding-left:5px;
+}
+
+.navBar a:hover
+{
+	font-size:34px;
+	font-family:Tahoma, Geneva, sans-serif;
+	width:20%;
+	top:-12px;
+	background-color:#333;
+	height:40px;
+	padding-left:5px;
+	color:#FF0;
+}
